@@ -12,5 +12,10 @@ public class App {
         StaticBlockSingleton.getInstance().showMessage();
 
 
+        // Thread Safe Singleton
+
+        ThreadSafeSingleton.getThreadSafeSingletonInstance().showMessage();
+
+
     }
 }
