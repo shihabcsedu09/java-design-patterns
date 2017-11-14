@@ -15,6 +15,18 @@ public class ThreadSafeSingleton {
         return instance;
     }
 
+    public static ThreadSafeSingleton getThreadSafeSingletonUsingDoubleCheckingInstance(){
+        if(instance == null) {
+            synchronized (ThreadSafeSingleton.class){
+                if(instance == null){
+                    instance = new ThreadSafeSingleton();
+                }
+            }
+
+        }
+        return instance;
+    }
+
     public void showMessage(){
         System.out.println("Hello From Thread Safe Singleton ");
     }

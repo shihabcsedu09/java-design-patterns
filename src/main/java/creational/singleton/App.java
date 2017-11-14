@@ -7,14 +7,14 @@ public class App {
         // Eager Initialization Singleton
         EagerInitializationSingleton.getINSTANCE().showMessage();
 
-
         // Static Block Initialization Singleton
         StaticBlockSingleton.getInstance().showMessage();
 
-
         // Thread Safe Singleton
-
         ThreadSafeSingleton.getThreadSafeSingletonInstance().showMessage();
+
+        // Thread Safe Singleton using double checking
+        ThreadSafeSingleton.getThreadSafeSingletonUsingDoubleCheckingInstance().showMessage();
 
 
     }
