@@ -13,6 +13,6 @@ public class EagerInitializationSingleton {
     }
 
     public void showMessage(){
-        System.out.print("Hello From Eager Initialization Singleton ");
+        System.out.println("Hello From Eager Initialization Singleton ");
     }
 }

@@ -7,5 +7,10 @@ public class App {
         // Eager Initialization Singleton
         EagerInitializationSingleton.getINSTANCE().showMessage();
 
+
+        // Static Block Initialization Singleton
+        StaticBlockSingleton.getInstance().showMessage();
+
+
     }
 }
