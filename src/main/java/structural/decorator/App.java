@@ -2,9 +2,9 @@ package structural.decorator;
 
 import structural.decorator.decorators.CheeseDecorator;
 import structural.decorator.decorators.SauceDecorator;
-import structural.decorator.model.BeefSandwich;
-import structural.decorator.model.ChickenSandwich;
-import structural.decorator.model.Sandwich;
+import structural.decorator.component.BeefSandwich;
+import structural.decorator.component.ChickenSandwich;
+import structural.decorator.component.Sandwich;
 
 public class App {
 

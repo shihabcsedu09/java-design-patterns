@@ -1,6 +1,6 @@
 package structural.decorator.decorators;
 
-import structural.decorator.model.Sandwich;
+import structural.decorator.component.Sandwich;
 
 public abstract class SandwichDecorator implements Sandwich {
     public abstract String getDescription();

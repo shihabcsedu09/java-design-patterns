@@ -1,4 +1,4 @@
-package structural.decorator.model;
+package structural.decorator.component;
 
 public abstract class BaseSandwich implements Sandwich {
 

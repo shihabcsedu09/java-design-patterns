@@ -1,6 +1,6 @@
 package structural.decorator.decorators;
 
-import structural.decorator.model.Sandwich;
+import structural.decorator.component.Sandwich;
 
 public class CheeseDecorator extends SandwichDecorator {
 
