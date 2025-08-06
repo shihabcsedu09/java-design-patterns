@@ -1,9 +1,11 @@
+/**
+ * Demonstrates different Singleton pattern implementations in Java.
+ */
 package creational.singleton;
 
 public class App {
 
-    public static void main(String[] args){
-
+    public static void main(String[] args) {
         // Eager Initialization Singleton
         EagerInitializationSingleton.getINSTANCE().showMessage();
 
@@ -15,7 +17,5 @@ public class App {
 
         // Thread Safe Singleton using double checking
         ThreadSafeSingleton.getThreadSafeSingletonUsingDoubleCheckingInstance().showMessage();
-
-
     }
 }
