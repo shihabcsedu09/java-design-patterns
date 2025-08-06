@@ -22,6 +22,16 @@ This repository contains example implementations of classic design patterns in J
 
 ### Behavioral Patterns
 - [Chain of Responsibility](src/main/java/behavioral/chainofresponsibility/README.md)
+- [Command](src/main/java/behavioral/command/README.md)
+- [Interpreter](src/main/java/behavioral/interpreter/README.md)
+- [Iterator](src/main/java/behavioral/iterator/README.md)
+- [Mediator](src/main/java/behavioral/mediator/README.md)
+- [Memento](src/main/java/behavioral/memento/README.md)
+- [Observer](src/main/java/behavioral/observer/README.md)
+- [State](src/main/java/behavioral/state/README.md)
+- [Strategy](src/main/java/behavioral/strategy/README.md)
+- [Template Method](src/main/java/behavioral/templatemethod/README.md)
+- [Visitor](src/main/java/behavioral/visitor/README.md)
 
 ## How to Use
 - Browse each pattern's folder for code and documentation.
