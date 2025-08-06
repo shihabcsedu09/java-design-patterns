@@ -1,16 +1,19 @@
+/**
+ * CarType is an enum representing different types of cars.
+ */
 package creational.factory.product;
 
 public enum CarType {
     SUV("suv"), SEDAN("sedan"), ELECTRIC("electric");
 
-    private String catType;
+    private String carType;
 
-    CarType(String title) {
-        this.catType = catType;
+    CarType(String carType) {
+        this.carType = carType;
     }
 
     @Override
     public String toString() {
-        return catType;
+        return carType;
     }
 }
